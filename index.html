@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
 
+    <!-- Link para o arquivo de estilos CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="top">
     <h1>To do List</h1>
+    <!-- Link interno que rola a página para o formulário -->
     <a href="#name">Make yours</a>
 </div>
 
 <div class="content">
+    <!-- Formulário para digitar uma nova tarefa -->
     <form class="forms">
         <fieldset class="field">
+            <!-- O id "name" serve como âncora para o link acima -->
             <label id="name" name="toDo">Your task:</label>
             <input id="task" type="text" name="toDo" placeholder="Type your task">
-            <button type="submit" id="btnEnter" name= "toDo">Enter</button>
-            <button type="reset" id="btnReset" name= "toDo">Reset</button>
+            <button type="submit" id="btnEnter" name="toDo">Enter</button>
+            <button type="reset" id="btnReset" name="toDo">Reset</button>
         </fieldset>
     </form>
 
     <div class="myList">
+        <!-- Aqui o JavaScript adiciona os itens da lista -->
         <ul id="list">
         </ul>
     </div>
 </div>
 
     <footer>
+        <!-- Links do rodapé com ícones para redes sociais -->
         <a href="https://www.linkedin.com/in/gabriel-cerbaro-4703b4239/" target="_blank">
             <img src="assets/linkedin.png" alt="foto linkedin">
         </a>
@@ -41,6 +47,7 @@
         </a>
     </footer>
 
+<!-- Importa o JavaScript que controla a lista de tarefas -->
 <script src="scripts.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Layout geral da página */
 body {
     display: flex;
     flex-direction: column;
@@ -24,10 +25,12 @@ body {
     justify-content: center;
 }
 
+/* Rola a página suavemente quando clicar em links internos */
 html {
     scroll-behavior: smooth;
 }
 
+/* Estilo do topo com título grande */
 .top h1 {
     font-size: 10rem;
 }
@@ -53,6 +56,7 @@ a:hover {
     align-items: center;
 }
 
+/* Espaçamento do formulário */
 .forms {
     margin-bottom: 10rem;
 }
@@ -69,6 +73,7 @@ a:hover {
     font-size: 2rem;
 }
 
+/* Estilo do campo de entrada de tarefa */
 .forms #task {
     width: 20rem;
     height: 5rem;
@@ -84,6 +89,7 @@ a:hover {
     border-color: white;
 }
 
+/* Botões do formulário */
 .forms button {
     height: 48px;
     padding: 0 20px;
@@ -103,6 +109,7 @@ a:hover {
     color: #222;
 }
 
+/* Estilo da área que mostra a lista de tarefas */
 .myList {
     font-size: 3rem;
     margin-bottom: 10rem;
@@ -119,6 +126,7 @@ a:hover {
     gap: 1rem;
 }
 
+/* Botão para remover item */
 .btn-remove {
     gap: 5px;
     height: 48px;
@@ -131,6 +139,7 @@ a:hover {
     color: #222;
 }
 
+/* Botão para concluir item */
 .btn-finished {
     height: 48px;
     padding: 0 20px;
@@ -142,6 +151,7 @@ a:hover {
     color: white;
 }
 
+/* Estilo do rodapé com ícones */
 footer {
     text-decoration: none;
     font-size: 2rem;
